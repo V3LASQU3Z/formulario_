@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>formulario</title>
+
+    <style>
+        .formu {
+            border: 3px inset rgb(0, 0, 0);
+            margin: 6px 400px;
+            padding: 16px 12px;
+        }
+        
+        .ide {
+            padding: 4px 38px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="formu">
+            <form action="">
+                <label>Nombre :</label>
+                <input type="text" size="40" maxlength="100"><br><br>
+                <label>Año de nacimiento :</label>
+                <input type="text" size="20" maxlength="4"><br><br>
+                <label>Nacionalidad :</label>
+                <input type="text" size="20" maxlength="30"><br><br>
+                <label>Contraseña :</label>
+                <input type="contraseña" size="10" maxlength="50"><br><br>
+
+
+                <div class="ide">
+                    <input type="checkbox" name="Local">
+                    <label for="">Casilla de Verificación:</label><br>
+                    <br>
+                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+                    <label class="form-check-label" for="radio1">Radio 1</label>
+                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+                    <label class="form-check-label" for="radio1">Radio 2</label>
+                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2" checked>
+                    <label class="form-check-label" for="radio2">Radio 3</label><br>
+                    <br>
+                    <input type="reset" value="Borrar">
+                </div>
+
+
+                <br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+
+
+            </form>
+        </div>
+
+    </section>
+</body>
+
+</html>
